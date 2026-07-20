@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Backup / working directories (not needed for the deployed site)
+.texture-originals-backup/
+.video-originals-backup/
+
+# Supplementary non-web assets (not used by the build)
+webanimation.pptx
